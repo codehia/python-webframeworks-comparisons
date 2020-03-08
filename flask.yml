@@ -1,0 +1,69 @@
+---
+name: flask
+type: Python microframework for building web applications.
+long_description: Flask is a Python-based framework for building web applications. It is based on Werkzeug and Jinja 2. 
+  It is a minimalist, 'no batteries included' framework. Yet it can be scaled extensively and support complex applications and use cases. 
+  It follows the philosophy that if something needs to be initialized, it should be initialized by the developer.
+
+author: <div class="d-flex"> <div class="h-100 d-table">
+  <img class="rounded-circle" src="/assets/images/compare/python-frameworks/flask.jpeg" alt="Armin Ronacher - Author of Flask" width="50">
+  <div class="d-table-cell align-middle"><span class="ml-2"><a rel="nofollow" href="https://en.wikipedia.org/wiki/Armin_Ronacher">Armin Ronacher</a></span></div></div></div>
+
+orm: Doesn't come with a built-in ORM framework, but there are many open source libraries that can be used. Such as 
+    <a href="https://flask-sqlalchemy.palletsprojects.com/en/2.x/" rel="nofollow">Flask-SQLAlchemy</a>,
+    <a href="https://pypi.org/project/Flask-Pony/" rel="nofollow">Flask-Pony</a>,
+    etc.
+orm_rating: 4
+
+nosql: Flask doesn't get in the way and has no opinion of Relational vs NoSQL databases. 
+  You could use a NoSQL database just as easily as you would a Relational database using extensions such as 
+  <a href="https://flask-pymongo.readthedocs.io/en/latest/" rel="nofollow">Flask-PyMong</a>
+nosql_rating: 5
+
+
+flex: Very flexible and doesn't require users to use any particular project or code layout. (A structured approach is still recommended.)
+flex_rating: 5
+
+companies: Netflix, Zillow, Lyft.
+
+release_date: 2010
+
+license: <a href="https://en.wikipedia.org/wiki/BSD_licenses#3-clause" rel="nofollow">BSD 3-clause license</a>
+
+website: <a ref="nofollow" href="https://palletsprojects.com/p/flask/">palletsprojects.com/p/flask</a>
+
+admin: No built-in admin panel, but you can use the <a href="https://github.com/flask-admin/flask-admin" rel="nofollow">Flask-Admin</a> extension. 
+  It supports a number of backends like SQLAlchemy, MongoEngine, Peewee etc.
+
+templating: Flask uses <a href="https://flask.palletsprojects.com/templating/" rel="nofollow">Jinja2</a> out of the box.
+
+web_forms: No built-in support but there is <a href="https://flask-wtf.readthedocs.io" rel="nofollow">Flask-WTF</a> extention. 
+  For SQLAlchemy support, that is, to create forms based on models, 
+  there is <a href="https://wtforms-alchemy.readthedocs.io/en/latest/" rel="nofollow">WTForms-Alchemy</a>
+
+routing: Yes, using <a href="https://werkzeug.palletsprojects.com" rel="nofollow">Werkzeug</a>.
+
+auth: Only provides support for cookie-based sessions but there are extensions available for <a href="https://pythonhosted.org/Flask-Security/">authentication, authorization and account management</a>.
+
+testing: Built-in support using Python's <a href="https://docs.python.org/3/library/unittest.html" rel="nofollow">unittest</a> framework.
+
+security: Despite being a minimalist Framework, Flask does an excellent job of addressing common security concerns like CSRF, XSS, JSON 
+  security and <a href="https://flask.palletsprojects.com/security/" rel="nofollow">more</a> out of the box. 3rd party extensions like
+  <a href="https://pythonhosted.org/Flask-Security/" rel="nofollow">Flask-Security</a> can be used for common security measures.
+  However, 3rd party extensions must be evaluated for security risks, and timely updates are crucial if a vulnerability. 
+    is discovered in an extension.
+security_rating: 4
+
+restful: Supported via extensions such as <a href="https://flask-restful.readthedocs.io" rel="nofollow">Flask-RESTful</a>,
+  <a href="http://flask-classful.teracy.org/" rel="nofollow">Flask-Classful</a>, 
+  <a href="https://flask-restplus.readthedocs.io" rel="nofollow">Flask-RESTPlus</a>.
+
+
+popularity_users: Used by 397,000 projects.
+popularity_rating: 5
+
+perf: Because it is minimal, it loads up very fast. Extensions could impact performance negatively.
+perf_rating: 5
+
+difficulty: Flask is lighter and very explicit. For people who are new to web development and only know Python, it is much easier and faster to learn. 
+difficulty_rating: 5

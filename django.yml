@@ -1,0 +1,63 @@
+---
+name: Django
+type: Python megaframework for building web application.
+long_description: Django is a high-level Python Web framework that encourages rapid development. 
+  It is based model-template-view (MTV). Batteries included, it does a lot of things automatically for developers.
+
+author: <div class="d-flex"> <div class="h-100 d-table">
+  <img class="rounded-circle" src="/assets/images/compare/python-frameworks/django.jpeg" alt="Adrian Holovaty - Author of Django" width="50">
+  <div class="d-table-cell align-middle"><span class="ml-2">
+  <a rel="nofollow" href="https://en.wikipedia.org/wiki/Adrian_Holovaty">Adrian Holovaty</a> and Simon Willison.
+  </span></div></div></div>
+
+orm: Excellent support and comes with built-in <a href="https://docs.djangoproject.com/en/2.2/topics/db/models/" rel="nofollow">ORM</a>. 
+orm_rating: 5
+
+nosql: Django doesn't officially support NoSQL databases but you could, with some effort, use a third-party library like 
+  <a href="https://github.com/pynamodb/PynamoDB" rel="nofollow">PynamoDB</a> for DynamoDB or
+  <a href="https://django-mongodb-engine.readthedocs.io/" rel="nofollow">Django MongoDB Engine</a>. Using NoSQL database with Django is not easy.
+nosql_rating: 3
+
+flex: Opinionated and <a href="https://www.agiliq.com/blog/2010/10/django-is-not-flexible/" rel="nofollow">not</a> very flexible. 
+flex_rating: 3
+
+companies: Instagram, Pinterest, Coursera, Udemy.
+  
+release_date: 2005
+
+license: <a href="https://en.wikipedia.org/wiki/BSD_licenses#3-clause" rel="nofollow">3-clause license</a>
+
+website: <a ref="nofollow" href="https://www.djangoproject.com/">www.djangoproject.com</a>
+
+admin: Django ships with a web-based admin site that has a friendly UI.
+  It allows you to quickly perform CRUD operations against your models from your browser to test things out.
+
+templating: Uses its own <a href="https://docs.djangoproject.com/en/2.2/ref/templates/" rel="nofollow">templating engine</a>.
+  You could <a href="https://docs.djangoproject.com/en/2.2/topics/templates/#django.template.backends.jinja2.Jinja2" rel="nofollow">configure</a> Django to use Jinja2 if you like.
+
+web_forms: Ships with built-in <a href="https://docs.djangoproject.com/en/2.2/topics/forms/modelforms/" rel="nofollow">ModelForms</a> which provides complete
+  support for web forms including input validation, CSRF, XSS, and SQL injection.
+
+routing: Yes, <a href="https://docs.djangoproject.com/en/2.2/topics/http/urls/" rel="nofollow">routing</a> is supported.
+
+auth: Built-in <a href="https://docs.djangoproject.com/en/2.2/ref/contrib/auth/" rel="nofollow">authentication</a>, authorization, account management and support for sessions. 
+
+testing: Built-in support using Python's <a href="https://docs.python.org/3/library/unittest.html" rel="nofollow">unittest</a> framework.
+
+security: Built-in protection against several common attack vectors like CSRF, XSS, and SQL injection. When vulnerabilities are discovered, 
+  the Django team has an excellent <a href="https://docs.djangoproject.com/en/dev/internals/security/" rel="nofollow">security policy</a>
+ and <a href="https://www.djangoproject.com/weblog/2020/mar/04/security-releases/" rel="nofollow">fixes</a>
+  are released quickly.  
+security_rating: 5
+
+popularity_users: Used by 367,000 projects.
+popularity_rating: 5
+
+restful: Not built-in but supported via <a href="https://www.django-rest-framework.org/" rel="nofollow">Django REST Framework</a>.
+
+perf: Not as fast as compared to bare-bones Flask, but the difference is negligible. 
+perf_rating: 4
+
+difficulty: Has a steep learning curve especially for those who are not familiar with other web frameworks. 
+  But there are some great online resources, tutorials and courses.
+difficulty_rating: 4

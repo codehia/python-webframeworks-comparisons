@@ -1,0 +1,65 @@
+---
+name: Tornado
+type: Python web framework and asynchronous networking library, which does non-blocking I/O.
+long_description: Tornado is a Python web framework and asynchronous networking library developed at FriendFeed. 
+  By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, 
+  WebSockets, and other applications that require a long-lived connection to each user. It is great for use cases that are I/O intensive (e.g., proxies)
+  but not ideal for compute-intensive use cases.
+
+author: <div class="d-flex"> <div class="h-100 d-table">
+  <img class="rounded-circle" src="/assets/images/compare/python-frameworks/tornado.jpg" alt="Ben Darnell - Author of Tornado" width="50">
+  <div class="d-table-cell align-middle"><span class="ml-2"><a rel="nofollow" href="https://en.wikipedia.org/wiki/Ben_Darnell">Ben Darnell</a></span></div></div></div>
+
+orm: Being an asynchronous framework, Tornado doesn't play well with ORM frameworks. 
+  See this <a href="https://stackoverflow.com/a/16503103/840055" rel="nofollow">stackoverflow answer</a> for more details.
+  It doesn't come with a built-in ORM framework, but 3rd party libraries that can be used. Such as 
+    <a href="https://tornado-sqlalchemy.readthedocs.io/en/latest/" rel="nofollow">tornado-sqlalchemy</a>,
+    <a href="https://github.com/PyMySQL/Tornado-MySQL rel="nofollow">Tornado-MySQL (experimental)</a>,
+    etc.
+orm_rating: 2
+
+nosql: No built-in support for NoSQL databases, but 3rd party libraries support asynchronous, non-blocking access.
+  <a href="https://github.com/mongodb/motor" rel="nofollow">Motor</a> is one such library from the makers of MongoDB
+nosql_rating: 5
+
+
+flex: Tornado is simple and flexible.
+flex_rating: 5
+
+companies: FriendFeed, Turntable.fm, Fantamaster.it
+
+release_date: 2009
+
+license: <a href="https://en.wikipedia.org/wiki/Apache_License" rel="nofollow">Apache License</a>
+
+website: <a ref="nofollow" href="https://www.tornadoweb.org/">www.tornadoweb.org</a>
+
+admin: No built-in admin panel. No well-known 3rd party tools either.
+
+templating: Tornado uses <a href="https://www.tornadoweb.org/en/stable/template.html" rel="nofollow">custom</a> templating library out of the box.
+
+web_forms: No built-in support.
+
+routing: Yes, built-in using <a href="https://www.tornadoweb.org/en/stable/routing.html" rel="nofollow">custom</a> implementation.
+
+auth: Provides user authentication and also supports 3rd party authentication and authorization systems like Google, Twitter, Facebook, etc.
+
+testing: Built-in support using Python's <a href="https://docs.python.org/3/library/unittest.html" rel="nofollow">unittest</a> framework.
+
+security: Built-in <a href="https://www.tornadoweb.org/en/stable/guide/security.html" rel="nofollow">security mechanisms</a> such as secure cookies, XSRF, DNS Rebinding and etc. Has been used in production for many years so 
+  security is generally decent.
+security_rating: 4
+
+restful: No built-in support for REST API, but users can implement REST APIs manually.
+
+popularity_users: Used by 84,000 projects.
+popularity_rating: 4
+
+perf: <a href="https://gist.github.com/andreif/6088558" rel="nofollow">Best</a> performance out of any Django framework.
+perf_rating: 5
+
+difficulty: Tornado is not difficult to learn if the user is familiar with asynchronous and non-blocking I/O. 
+  The online resources, courses, and tutorials are not as plentiful compared to Flask or Django.
+difficulty_rating: 4
+
+related: twisted

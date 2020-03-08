@@ -1,0 +1,62 @@
+---
+name: web2py
+type: Python full-stack for building web applications.
+
+release_date: 2007
+
+long_description: web2py was originally designed as a teaching tool, but it gained adoption outside of the academic world. 
+  It is a full-stack framework containing all the components needed to build fully functional web applications using the 
+  Model View Controller (MVC) pattern. Inspired by the Ruby on Rails and Django. It is not very popular right now but was
+  ranked amongst 
+  <a href="https://web.archive.org/web/20200221122320/https://www.infoworld.com/article/2622836/pillars-of-python--six-python-web-frameworks-compared.html" rel="nofollow"> top Python web frameworks</a> in 2011.
+
+author: <div class="d-flex"> <div class="h-100 d-table">
+  <img class="rounded-circle" src="/assets/images/compare/python-frameworks/web2py.jpeg" alt="Massimo Di Pierro - Author of web2py" width="50">
+  <div class="d-table-cell align-middle"><span class="ml-2"><a rel="nofollow" href="https://www.linkedin.com/in/massimodipierro">Massimo Di Pierro</a></span></div></div></div>
+
+orm: Ships with a Database Abstraction Layer (DAL) which supports MySQL, PostgreSQL, SQLite, and many other relational databases.
+orm_rating: 5
+
+nosql: No built-in support. Very limited support for NoSQL databases. Currently, it only supports Google Datastore on the Google App Engine.
+nosql_rating: 1
+
+
+flex: Not as flexible as microframeworks, but doesn't always get in the way.
+flex_rating: 3
+
+companies: Not in use at any large company.
+
+
+license: <a href="https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License" rel="nofollow">GNU Lesser General Public License version 3 (LGPLv3)</a>
+
+website: <a ref="nofollow" href="http://www.web2py.com/">www.web2py.com</a>
+
+admin: Yes ships with a built-in admin panel.
+
+templating: Uses custom <a href="http://web2py.com/books/default/chapter/29/05/the-views">web2py templating language</a> out of the box.
+
+web_forms: Built-in support. Read more <a href="http://web2py.com/books/default/chapter/29/07/forms-and-validators">here</a>.
+
+routing: Built-in support using <a href="http://web2py.com/books/default/chapter/29/04/the-core#Parameter-based-system">parameter based system</a>.
+
+auth: Includes a <a href="https://en.wikipedia.org/wiki/Role-based_access_control" rel="nofollow">Role Based Access Control mechanism (RBAC)</a>, which is sufficient for many use cases.
+
+testing: Can be done using Python's <a href="https://docs.python.org/3/library/unittest.html" rel="nofollow">unittest</a> framework or using the <a href="https://en.wikipedia.org/wiki/Doctest" rel="nofollow">doctest</a>.
+
+security: Built-in protection against input injections, XSS, and common vulnerabilities. Read more <a href="http://www.web2py.com/book/default/chapter/01#Security" rel="nofollow">here</a>.
+  It has known security vulnerabilities. Please see list <a href="https://www.cvedetails.com/vulnerability-list/vendor_id-12701/product_id-25171/Web2py-Web2py.html" rel="nofollow">here</a>.
+security_rating: 2
+
+restful: Has some  <a href="http://web2py.com/books/default/chapter/29/10/services?search=restful#Restful-Web-Services" rel="nofollow">support</a>.
+
+popularity_users: Used by 36 projects.
+popularity_rating: 0
+
+perf: Web2py takes a unique approach where models and controllers are executed in a single global environment, which is initialized at each HTTP request.
+  While there are pros to this approach, such as developers never having to worry about cleaning up or avoid conflict between requests, the major disadvantage is that the code is models is executed with every request which carries a performance penalty.
+perf_rating: 3
+
+difficulty: Limited online tutorials and resources, and many are several years old. 
+  The best resource for learning is web2py author's own <a href="http://www.web2py.com/books/default/chapter/29/01/introduction" rel="nofollow">"web2py Complete Reference Manual"</a>, 
+    which seems to be written in 2013.
+difficulty_rating: 2

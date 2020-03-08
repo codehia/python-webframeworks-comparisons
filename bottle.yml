@@ -1,0 +1,65 @@
+---
+name: bottle
+type: Python microframework for building web applications.
+long_description: Bottle is a fast, simple and lightweight WSGI micro web-framework for Python. 
+  It is distributed as a single file module and has no dependencies other than the Python Standard Library.
+
+author: <div class="d-flex"> <div class="h-100 d-table">
+  <img class="rounded-circle" src="/assets/images/compare/python-frameworks/bottle.jpeg" alt="Marcel Hellkamp - Author of bottle" width="50">
+  <div class="d-table-cell align-middle"><span class="ml-2">
+  <a rel="nofollow" href="https://de.linkedin.com/in/marcel-hellkamp-6a72ba4b/en">Marcel Hellkamp</a></span></div></div></div>
+
+orm: No built-in ORM framework. Leaves it up to developers to choose a library like 
+  <a href="https://pypi.org/project/bottle-sqlalchemy/" rel="nofollow">SQLAlchemy</a> or extensions such as 
+  <a href="http://nobrin.github.com/macaron/webapp.html" rel="nofollow">Macaron</a>.
+orm_rating: 4
+
+nosql: No built-in support but 3rd party Python libraries like 
+  <a href="https://api.mongodb.com/python/current/" rel="nofollow">PyMongo</a> or 
+  <a href="http://pypi.python.org/pypi/bottle-mongo/" rel="nofollow">Bottle-Mongo</a>
+  can be used to talk to NoSQL databases.
+nosql_rating: 4
+
+
+flex: Very flexible and extremely simple. Doesn't force anything on developers.
+flex_rating: 5
+
+companies: No data.
+
+release_date: 2009
+
+license: <a href="https://en.wikipedia.org/wiki/MIT_License" rel="nofollow">MIT License</a>
+
+website: <a ref="nofollow" href="http://bottlepy.org/docs/dev/" rel="nofollow">bottlepy.org/docs/dev/</a>
+
+admin: No built-in admin panel.
+
+templating: Fast and pythonic 
+  <a href="http://bottlepy.org/docs/dev/tutorial.html#tutorial-templates" rel="nofollow">built-in template engine</a> 
+  and support for <a href="http://www.makotemplates.org/" rel="nofollow">mako</a>, 
+  <a href="http://jinja.pocoo.org/" rel="nofollow">jinja2</a> 
+  and <a href="http://www.cheetahtemplate.org/" rel="nofollow">cheetah</a> templating languages.</li>
+
+web_forms: No built-in support.
+
+routing: Requests to function-call mapping with support for clean and dynamic URLs. Read more <a href="http://bottlepy.org/docs/dev/routing.html" rel="nofollow">here</a>.
+
+auth: Using a plugin such as <a href="https://bottlepy.org/docs/dev/plugins/index.html" rel="nofollow">Bottle-Cork</a>
+
+testing: Using <a href="http://webtest.pythonpaste.org/" rel="nofollow">WebTest</a> and 
+  <a href="http://readthedocs.org/docs/nose" rel="nofollow">Nose</a>.
+
+security: No built-in protection. Bottle is a minimalist framework. Must be handled by developers themselves or by using 3rd party extensions.
+security_rating: 3
+
+restful: No built-in support but can be implemented easily.
+
+popularity_users: Used by 11,000 projects.
+popularity_rating: 3
+
+perf: Very <a href="http://mindref.blogspot.com/2012/09/python-fastest-web-framework.html" rel="nofollow">fast</a>. 
+  Extensions could impact performance adversely.
+perf_rating: 5
+
+difficulty: Straightforward and easy to learn. It has a good amount of tutorials online.
+difficulty_rating: 4

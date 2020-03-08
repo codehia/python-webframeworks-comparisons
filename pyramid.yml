@@ -1,0 +1,64 @@
+---
+name: Pyramid
+type: Python "microframework" for building web applications. 
+long_description: Pyramids is a web framework that is written in Python and is based on WSGI. 
+  It is minimalistic and inspired by Zope, Pylons, and Django. Before 2010, Pyramid was known as repoze.bfg.
+
+author: <div class="d-flex"> <div class="h-100 d-table">
+  <img class="rounded-circle" src="/assets/images/compare/python-frameworks/pyramid.jpeg" alt="Chris McDonough - Author of Pyramid" width="50">
+  <div class="d-table-cell align-middle"><span class="ml-2">
+  <a rel="nofollow" href="https://twitter.com/chrismcdonough">Chris McDonough</a>
+  </span></div></div></div>
+
+orm: No built-in ORM framework. Leaves it up to developers to choose a library like 
+  <a href="https://docs.pylonsproject.org/projects/pyramid-cookbook/en/latest/database/sqlalchemy.html" rel="nofollow">SQLAlchemy</a>
+orm_rating: 4
+
+nosql: Doesn't get in the way of using NoSQL, and they are supported just as well as a relational database. 
+  Read more <a href="https://docs.pylonsproject.org/projects/pyramid-cookbook/en/latest/database/mongodb.html" rel="nofollow">here</a>.
+nosql_rating: 5
+
+flex: Flexible compared to Django, but not as much as the other popular Python microframework Flask.
+flex_rating: 4
+
+companies: Reddit, Yelp, Mozilla, SurveyMoney, NewCars.com.
+  
+release_date: 2008
+
+license: <a href="https://en.wikipedia.org/wiki/BSD_licenses" rel="nofollow">BSD license</a>
+
+website: <a ref="nofollow" href="https://trypyramid.com/">trypyramid.com</a>
+
+admin: Doesn't ship with one but <a href="https://awesome-pyramid.readthedocs.io/en/latest/awesome.html#admin-interface" rel="nofollow">3rd party tools</a> are available.
+
+templating: Doesn't ship with a default templating language and leaves it up to developers to add one. 
+  <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/jinja2.html" rel="nofollow">Jinja2</a> can be added to Pyramid.
+  Another engine popular amongst Pyramid users is <a href="https://docs.pylonsproject.org/projects/pyramid-chameleon/en/latest/" rel="nofollow">Chameleon </a>.
+
+web_forms: No built-in support. 
+  Prefers 3rd party <a href="https://docs.pylonsproject.org/projects/deform/en/latest/index.html#overview" rel="nofollow">Deform</a> library.
+
+routing: Yes, it is <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/routing.html" rel="nofollow">supported</a>.
+
+auth: Built-in support for <a href="https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/security.html" rel="nofollow">authentication, authorization and session</a>. 
+
+testing:  Uses <a href="https://docs.pytest.org/en/latest/index.html#features" rel="nofollow">pytest</a> for unit testing.
+
+security: Built-in protection against CSRF, but 
+  <a href="https://snyk.io/vuln/SNYK-PYTHON-PYRAMID-40730" rel="nofollow">XSS</a> vulnerabilities have been discovered in past versions.
+security_rating: 3
+
+popularity_users: Used by 7,000 projects.
+popularity_rating: 2
+
+restful: Because it is a minimal framework, users can build a REST API themselves easily, or use a 3rd party library like 
+  <a href="https://cornice.readthedocs.io/en/latest/" rel="nofollow">Cornice</a>.
+
+perf: Claims to have top-notch performance but virtue of being a microframework but 
+  <a href="https://www.techempower.com/benchmarks/#section=data-r13&hw=ph&test=query&l=4ftgjj&f=zik0zb-zik0zj-v2qiv3-zik0zj-zik0zj-zik0zj-3j" rel="nofollow">benchmarks prove it</a>
+  to be slower than even Django beyond simple use cases. 
+perf_rating: 3
+
+difficulty: Being a microframework, the learning curve isn't very steep. 
+  However, it doesn't have the same amount of tutorials, courses, and resources available for leaning compared to Django and Flask.
+difficulty_rating: 4
